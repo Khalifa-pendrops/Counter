@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./asset/educational-books.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+    height: 100vh;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: o 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    opacity: .7;
+    border: 1.5px solid;
+    border-radius: 10px;
+}
+
+h1{
+color: aqua;
+background-color: black;
+opacity: .5;
+padding: .8rem;
+border-radius: 3px;
+margin-top: 1rem;
+}
+
+h3{
+    background-color: rgb(14, 80, 14);
+    padding: .4rem 2rem;
+    border-radius: 3px;
+    font-size: 2rem;
+    color: white;
+    width: fit-content;
+    opacity: .6;
+}
+
+.container p{
+    margin-bottom: 1rem;
+   max-width: 100%;
+   font-size: 1.5rem;
+   color: rgb(18, 19, 19);
+   border: 1px solid;
+   padding: 1rem;
+   background: cadetblue;
+   border-radius: 10px;
+   filter: blur(.45px);
+   font-weight: bolder;
+}
+
+button{
+    background: linear-gradient(to right, rgb(24, 78, 24), rgb(74, 3, 74));
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    border: none;
+    font-weight: bolder;
+    color: skyblue;
+    opacity: .6;
+}
+
+button:nth-last-of-type(2){
+    background: linear-gradient(to left, green, purple);
+    color: brown;
+}
+
+button:hover{
+    color: white;
+    background:linear-gradient(to top, rgb(111, 111, 31), green);
+}
+
